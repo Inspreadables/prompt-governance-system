@@ -1,4 +1,5 @@
 instruction_id,version,path,status,owner,last_reviewed,used_in,notes
+governance.instruction_id_convention,1.0.0,00_register/instruction_id_convention.md,stable,A. Verboon,2026-05-11,all_agents,Naamgevingsconventie voor alle instruction IDs
 global.operating_principles,0.1.0,01_global/operating_principles.md,draft,A. Verboon,2026-05-11,all_agents,Generieke bronprincipes
 global.communication_style,0.1.0,01_global/communication_style.md,draft,A. Verboon,2026-05-11,all_agents,Nederlands en Engels mogelijk
 global.quality_standards,0.1.0,01_global/quality_standards.md,draft,A. Verboon,2026-05-11,all_agents,Kwaliteitslat voor outputs

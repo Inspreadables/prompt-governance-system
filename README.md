@@ -34,3 +34,7 @@ Deze repository is de bron van waarheid voor herbruikbare prompt-, rol-, workflo
 4. Gebruik een adapter uit `05_agent_adapters/` om de instructies naar een specifieke agentomgeving te vertalen.
 5. Registreer elke actieve implementatie in `00_register/master_register.csv`.
 
+## Conventies
+
+- [Instructie-ID conventie](00_register/instruction_id_convention.md) — prefixes, naamgevingsregels, voorbeelden en relatie tot bestandspaden, versies, manifest en masterregister. Lees dit voordat je een nieuwe instructie toevoegt.
+

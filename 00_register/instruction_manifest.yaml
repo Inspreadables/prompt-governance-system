@@ -13,6 +13,12 @@ versioning:
   change_policy: "Wijzig bronbestanden eerst; update daarna agent-adapters en Space-bootstraps."
 
 instruction_sets:
+  - instruction_id: governance.instruction_id_convention
+    path: 00_register/instruction_id_convention.md
+    version: 1.0.0
+    status: stable
+    applies_to:
+      - all_agents
   - instruction_id: global.operating_principles
     path: 01_global/operating_principles.md
     version: 0.1.0
