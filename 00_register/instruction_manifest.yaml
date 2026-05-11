@@ -1,0 +1,60 @@
+system:
+  name: prompt-governance-system
+  description: Agent-onafhankelijk instructieregister voor promptanalyse, management en orchestration.
+  owner: "A. Verboon"
+  default_language: nl
+  repository_status: draft
+  created: 2026-05-11
+
+versioning:
+  schema_version: 0.1.0
+  instruction_versioning: semver
+  review_cycle: monthly
+  change_policy: "Wijzig bronbestanden eerst; update daarna agent-adapters en Space-bootstraps."
+
+instruction_sets:
+  - instruction_id: global.operating_principles
+    path: 01_global/operating_principles.md
+    version: 0.1.0
+    status: draft
+    applies_to:
+      - all_agents
+  - instruction_id: global.communication_style
+    path: 01_global/communication_style.md
+    version: 0.1.0
+    status: draft
+    applies_to:
+      - all_agents
+  - instruction_id: global.quality_standards
+    path: 01_global/quality_standards.md
+    version: 0.1.0
+    status: draft
+    applies_to:
+      - all_agents
+  - instruction_id: role.prompt_analyst_manager_orchestrator
+    path: 02_roles/prompt_analyst_manager_orchestrator.md
+    version: 0.1.0
+    status: draft
+    applies_to:
+      - perplexity_spaces
+      - claude_projects
+      - custom_gpts
+  - instruction_id: workflow.prompt_audit_protocol
+    path: 03_workflows/prompt_audit_protocol.md
+    version: 0.1.0
+    status: draft
+    applies_to:
+      - all_agents
+  - instruction_id: workflow.anti_rot_protocol
+    path: 03_workflows/anti_rot_protocol.md
+    version: 0.1.0
+    status: draft
+    applies_to:
+      - all_agents
+  - instruction_id: adapter.perplexity_space
+    path: 05_agent_adapters/perplexity_space_adapter.md
+    version: 0.1.0
+    status: draft
+    applies_to:
+      - perplexity_spaces
+
