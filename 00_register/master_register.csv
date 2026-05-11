@@ -1,5 +1,6 @@
 instruction_id,version,path,status,owner,last_reviewed,used_in,notes
 governance.instruction_id_convention,1.0.0,00_register/instruction_id_convention.md,stable,A. Verboon,2026-05-11,all_agents,Naamgevingsconventie voor alle instruction IDs
+governance.versioning_release_policy,1.0.0,00_register/versioning_and_release_policy.md,stable,A. Verboon,2026-05-11,all_agents,Versie- en releasebeleid voor instructies adapters en templates
 global.operating_principles,0.1.0,01_global/operating_principles.md,draft,A. Verboon,2026-05-11,all_agents,Generieke bronprincipes
 global.communication_style,0.1.0,01_global/communication_style.md,draft,A. Verboon,2026-05-11,all_agents,Nederlands en Engels mogelijk
 global.quality_standards,0.1.0,01_global/quality_standards.md,draft,A. Verboon,2026-05-11,all_agents,Kwaliteitslat voor outputs
@@ -8,4 +9,5 @@ workflow.prompt_audit_protocol,0.1.0,03_workflows/prompt_audit_protocol.md,draft
 workflow.anti_rot_protocol,0.1.0,03_workflows/anti_rot_protocol.md,draft,A. Verboon,2026-05-11,all_agents,Voorkomt instructiedrift
 adapter.perplexity_space,1.0.0,05_agent_adapters/perplexity_space_adapter.md,stable,A. Verboon,2026-05-11,Perplexity Spaces,Productieversie met compacte bootstrap en uitgebreide beheerderversie
 template.space_audit_checklist,0.1.0,04_templates/space_audit_checklist.md,draft,A. Verboon,2026-05-11,Prompt audit Spaces,Checklist met scorevelden en ELI5-versie
+template.release_notes,1.0.0,04_templates/release_notes_template.md,stable,A. Verboon,2026-05-11,all_agents,Template voor release notes bij grotere releases
 

@@ -37,4 +37,5 @@ Deze repository is de bron van waarheid voor herbruikbare prompt-, rol-, workflo
 ## Conventies
 
 - [Instructie-ID conventie](00_register/instruction_id_convention.md) — prefixes, naamgevingsregels, voorbeelden en relatie tot bestandspaden, versies, manifest en masterregister. Lees dit voordat je een nieuwe instructie toevoegt.
+- [Versie- en releasebeleid](00_register/versioning_and_release_policy.md) — semver-regels (`MAJOR`/`MINOR`/`PATCH`), statusovergangen (`draft` → `review` → `stable` → `deprecated`), de verhouding tussen adapterversies en bronversies, hoe Spaces weten welke versie actief is en hoe releases worden gedocumenteerd. Gebruik bij grotere releases het [release-notes-template](04_templates/release_notes_template.md).
 
