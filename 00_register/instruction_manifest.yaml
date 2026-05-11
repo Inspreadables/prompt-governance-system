@@ -69,6 +69,12 @@ instruction_sets:
     status: draft
     applies_to:
       - all_agents
+  - instruction_id: workflow.anti_rot_review_routine
+    path: 03_workflows/anti_rot_review_routine.md
+    version: 1.0.0
+    status: stable
+    applies_to:
+      - all_agents
   - instruction_id: adapter.perplexity_space
     path: 05_agent_adapters/perplexity_space_adapter.md
     version: 1.0.0
@@ -109,6 +115,12 @@ instruction_sets:
       - custom_gpts
   - instruction_id: template.release_notes
     path: 04_templates/release_notes_template.md
+    version: 1.0.0
+    status: stable
+    applies_to:
+      - all_agents
+  - instruction_id: template.deviation_log
+    path: 04_templates/deviation_log_template.md
     version: 1.0.0
     status: stable
     applies_to:

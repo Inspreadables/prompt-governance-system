@@ -53,6 +53,10 @@ Platform-specifieke regels (bestandsnamen, syntax, IDE-gedrag) horen in de adapt
 - [Instructie-ID conventie](00_register/instruction_id_convention.md) — prefixes, naamgevingsregels, voorbeelden en relatie tot bestandspaden, versies, manifest en masterregister. Lees dit voordat je een nieuwe instructie toevoegt.
 - [Versie- en releasebeleid](00_register/versioning_and_release_policy.md) — semver-regels (`MAJOR`/`MINOR`/`PATCH`), statusovergangen (`draft` → `review` → `stable` → `deprecated`), de verhouding tussen adapterversies en bronversies, hoe Spaces weten welke versie actief is en hoe releases worden gedocumenteerd. Gebruik bij grotere releases het [release-notes-template](04_templates/release_notes_template.md).
 
+## Maandelijkse anti-rot review
+
+Gebruik de [anti-rot reviewroutine](03_workflows/anti_rot_review_routine.md) om actieve Spaces en agents maandelijks in minder dan 30 minuten te controleren op drift. Houd per Space een [afwijkingenlog](04_templates/deviation_log_template.md) bij en pas de beslisregel toe: **Space bijwerken**, **register bijwerken** of **afwijking expliciet accepteren**.
+
 ## Validatie
 
 De repo bevat een automatische manifestvalidatie die controleert of `00_register/instruction_manifest.yaml`, `00_register/master_register.csv` en de bronbestanden bij elkaar passen. De controles zijn beschreven in de [manifest-validatiespecificatie](00_register/manifest_validation_specification.md).
