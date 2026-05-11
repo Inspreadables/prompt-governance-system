@@ -39,3 +39,18 @@ Deze repository is de bron van waarheid voor herbruikbare prompt-, rol-, workflo
 - [Instructie-ID conventie](00_register/instruction_id_convention.md) — prefixes, naamgevingsregels, voorbeelden en relatie tot bestandspaden, versies, manifest en masterregister. Lees dit voordat je een nieuwe instructie toevoegt.
 - [Versie- en releasebeleid](00_register/versioning_and_release_policy.md) — semver-regels (`MAJOR`/`MINOR`/`PATCH`), statusovergangen (`draft` → `review` → `stable` → `deprecated`), de verhouding tussen adapterversies en bronversies, hoe Spaces weten welke versie actief is en hoe releases worden gedocumenteerd. Gebruik bij grotere releases het [release-notes-template](04_templates/release_notes_template.md).
 
+## Validatie
+
+De repo bevat een automatische manifestvalidatie die controleert of `00_register/instruction_manifest.yaml`, `00_register/master_register.csv` en de bronbestanden bij elkaar passen. De controles zijn beschreven in de [manifest-validatiespecificatie](00_register/manifest_validation_specification.md).
+
+Lokaal uitvoeren:
+
+```bash
+pip install pyyaml   # alleen de eerste keer
+python3 tools/validate_manifest.py
+```
+
+Het script geeft fouten (blokkerend) en waarschuwingen (informatief) in begrijpelijke taal. Bij fouten verschijnt per melding wat er aan de hand is en wat je moet doen.
+
+In CI draait dezelfde controle automatisch via de workflow [`.github/workflows/validate.yml`](.github/workflows/validate.yml) op elke push en pull request naar `main`.
+

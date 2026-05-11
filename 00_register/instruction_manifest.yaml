@@ -25,6 +25,12 @@ instruction_sets:
     status: stable
     applies_to:
       - all_agents
+  - instruction_id: governance.manifest_validation_specification
+    path: 00_register/manifest_validation_specification.md
+    version: 1.0.0
+    status: stable
+    applies_to:
+      - all_agents
   - instruction_id: global.operating_principles
     path: 01_global/operating_principles.md
     version: 0.1.0

@@ -2,6 +2,7 @@
 
 ## 2026-05-11
 
+- Manifestvalidatiespecificatie toegevoegd als `governance.manifest_validation_specification@1.0.0` (status `stable`) in `00_register/manifest_validation_specification.md`: beschrijft controles C1 t/m C8 voor manifest, masterregister, paden, instruction_id-conventie, frontmatter-consistentie en niet-gemanifesteerde bestanden, inclusief foutmeldingsformaat voor niet-programmeurs. Validatiescript toegevoegd in `tools/validate_manifest.py` (alleen standaardbibliotheek + PyYAML). GitHub Action `.github/workflows/validate.yml` draait de validatie op elke push en pull request naar `main`. `README.md` heeft nu een sectie 'Validatie' met instructies om de controle lokaal uit te voeren. Manifest en masterregister bijgewerkt (#3).
 - Eerste conceptstructuur toegevoegd voor `prompt-governance-system`.
 - Manifest, masterregister, globale principes, hoofdrol, auditworkflow, anti-rot workflow en agent-adapters toegevoegd.
 - Perplexity Space-bootstrap toegevoegd voor de rol Prompt Analyst, Manager and Orchestrator.
