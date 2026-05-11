@@ -75,6 +75,30 @@ instruction_sets:
     status: stable
     applies_to:
       - perplexity_spaces
+  - instruction_id: adapter.claude_project
+    path: 05_agent_adapters/claude_project_adapter.md
+    version: 0.1.0
+    status: draft
+    applies_to:
+      - claude_projects
+  - instruction_id: adapter.custom_gpt
+    path: 05_agent_adapters/custom_gpt_adapter.md
+    version: 0.1.0
+    status: draft
+    applies_to:
+      - custom_gpts
+  - instruction_id: adapter.github_copilot
+    path: 05_agent_adapters/github_copilot_adapter.md
+    version: 1.0.0
+    status: stable
+    applies_to:
+      - github_copilot
+  - instruction_id: adapter.cursor_rules
+    path: 05_agent_adapters/cursor_rules_adapter.md
+    version: 1.0.0
+    status: stable
+    applies_to:
+      - cursor
   - instruction_id: template.space_audit_checklist
     path: 04_templates/space_audit_checklist.md
     version: 0.1.0
