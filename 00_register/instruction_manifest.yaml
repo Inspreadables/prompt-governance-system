@@ -53,8 +53,8 @@ instruction_sets:
       - all_agents
   - instruction_id: adapter.perplexity_space
     path: 05_agent_adapters/perplexity_space_adapter.md
-    version: 0.1.0
-    status: draft
+    version: 1.0.0
+    status: stable
     applies_to:
       - perplexity_spaces
   - instruction_id: template.space_audit_checklist
