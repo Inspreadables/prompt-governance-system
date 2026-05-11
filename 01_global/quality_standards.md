@@ -1,7 +1,7 @@
 ---
 instruction_id: global.quality_standards
-version: 0.1.0
-status: draft
+version: 1.0.0
+status: stable
 owner: A. Verboon
 last_reviewed: 2026-05-11
 ---

@@ -33,40 +33,40 @@ instruction_sets:
       - all_agents
   - instruction_id: global.operating_principles
     path: 01_global/operating_principles.md
-    version: 0.1.0
-    status: draft
+    version: 1.0.0
+    status: stable
     applies_to:
       - all_agents
   - instruction_id: global.communication_style
     path: 01_global/communication_style.md
-    version: 0.1.0
-    status: draft
+    version: 1.0.0
+    status: stable
     applies_to:
       - all_agents
   - instruction_id: global.quality_standards
     path: 01_global/quality_standards.md
-    version: 0.1.0
-    status: draft
+    version: 1.0.0
+    status: stable
     applies_to:
       - all_agents
   - instruction_id: role.prompt_analyst_manager_orchestrator
     path: 02_roles/prompt_analyst_manager_orchestrator.md
-    version: 0.1.0
-    status: draft
+    version: 1.0.0
+    status: stable
     applies_to:
       - perplexity_spaces
       - claude_projects
       - custom_gpts
   - instruction_id: workflow.prompt_audit_protocol
     path: 03_workflows/prompt_audit_protocol.md
-    version: 0.1.0
-    status: draft
+    version: 1.0.0
+    status: stable
     applies_to:
       - all_agents
   - instruction_id: workflow.anti_rot_protocol
     path: 03_workflows/anti_rot_protocol.md
-    version: 0.1.0
-    status: draft
+    version: 1.0.0
+    status: stable
     applies_to:
       - all_agents
   - instruction_id: workflow.anti_rot_review_routine
@@ -107,8 +107,8 @@ instruction_sets:
       - cursor
   - instruction_id: template.space_audit_checklist
     path: 04_templates/space_audit_checklist.md
-    version: 0.1.0
-    status: draft
+    version: 1.0.0
+    status: stable
     applies_to:
       - perplexity_spaces
       - claude_projects

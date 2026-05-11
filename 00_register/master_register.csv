@@ -2,19 +2,19 @@ instruction_id,version,path,status,owner,last_reviewed,used_in,notes
 governance.instruction_id_convention,1.0.0,00_register/instruction_id_convention.md,stable,A. Verboon,2026-05-11,all_agents,Naamgevingsconventie voor alle instruction IDs
 governance.versioning_release_policy,1.0.0,00_register/versioning_and_release_policy.md,stable,A. Verboon,2026-05-11,all_agents,Versie- en releasebeleid voor instructies adapters en templates
 governance.manifest_validation_specification,1.0.0,00_register/manifest_validation_specification.md,stable,A. Verboon,2026-05-11,all_agents,Specificatie van geautomatiseerde controles voor manifest masterregister en frontmatter
-global.operating_principles,0.1.0,01_global/operating_principles.md,draft,A. Verboon,2026-05-11,all_agents,Generieke bronprincipes
-global.communication_style,0.1.0,01_global/communication_style.md,draft,A. Verboon,2026-05-11,all_agents,Nederlands en Engels mogelijk
-global.quality_standards,0.1.0,01_global/quality_standards.md,draft,A. Verboon,2026-05-11,all_agents,Kwaliteitslat voor outputs
-role.prompt_analyst_manager_orchestrator,0.1.0,02_roles/prompt_analyst_manager_orchestrator.md,draft,A. Verboon,2026-05-11,Prompt analyst manager en orchestrator Space,Hoofdrol voor deze Space
-workflow.prompt_audit_protocol,0.1.0,03_workflows/prompt_audit_protocol.md,draft,A. Verboon,2026-05-11,Prompt audit Spaces,Auditproces voor prompts en Spaces
-workflow.anti_rot_protocol,0.1.0,03_workflows/anti_rot_protocol.md,draft,A. Verboon,2026-05-11,all_agents,Voorkomt instructiedrift
+global.operating_principles,1.0.0,01_global/operating_principles.md,stable,A. Verboon,2026-05-11,all_agents,Generieke bronprincipes
+global.communication_style,1.0.0,01_global/communication_style.md,stable,A. Verboon,2026-05-11,all_agents,Nederlands en Engels mogelijk
+global.quality_standards,1.0.0,01_global/quality_standards.md,stable,A. Verboon,2026-05-11,all_agents,Kwaliteitslat voor outputs
+role.prompt_analyst_manager_orchestrator,1.0.0,02_roles/prompt_analyst_manager_orchestrator.md,stable,A. Verboon,2026-05-11,Prompt analyst manager en orchestrator Space,Hoofdrol voor deze Space
+workflow.prompt_audit_protocol,1.0.0,03_workflows/prompt_audit_protocol.md,stable,A. Verboon,2026-05-11,Prompt audit Spaces,Auditproces voor prompts en Spaces
+workflow.anti_rot_protocol,1.0.0,03_workflows/anti_rot_protocol.md,stable,A. Verboon,2026-05-11,all_agents,Voorkomt instructiedrift
 workflow.anti_rot_review_routine,1.0.0,03_workflows/anti_rot_review_routine.md,stable,A. Verboon,2026-05-11,all_agents,Maandelijkse reviewroutine onder 30 minuten per Space met beslisregel
 adapter.perplexity_space,1.0.0,05_agent_adapters/perplexity_space_adapter.md,stable,A. Verboon,2026-05-11,Perplexity Spaces,Productieversie met compacte bootstrap en uitgebreide beheerderversie
 adapter.claude_project,0.1.0,05_agent_adapters/claude_project_adapter.md,draft,A. Verboon,2026-05-11,Claude Projects,Conceptadapter voor Claude Projects
 adapter.custom_gpt,0.1.0,05_agent_adapters/custom_gpt_adapter.md,draft,A. Verboon,2026-05-11,Custom GPTs,Conceptadapter voor OpenAI Custom GPTs
 adapter.github_copilot,1.0.0,05_agent_adapters/github_copilot_adapter.md,stable,A. Verboon,2026-05-11,GitHub Copilot in repositories,Productieadapter met minimale en uitgebreide variant voor .github/copilot-instructions.md
 adapter.cursor_rules,1.0.0,05_agent_adapters/cursor_rules_adapter.md,stable,A. Verboon,2026-05-11,Cursor in repositories,Productieadapter met minimale en uitgebreide variant voor .cursorrules en .cursor/rules/
-template.space_audit_checklist,0.1.0,04_templates/space_audit_checklist.md,draft,A. Verboon,2026-05-11,Prompt audit Spaces,Checklist met scorevelden en ELI5-versie
+template.space_audit_checklist,1.0.0,04_templates/space_audit_checklist.md,stable,A. Verboon,2026-05-11,Prompt audit Spaces,Checklist met scorevelden en ELI5-versie
 template.release_notes,1.0.0,04_templates/release_notes_template.md,stable,A. Verboon,2026-05-11,all_agents,Template voor release notes bij grotere releases
 template.deviation_log,1.0.0,04_templates/deviation_log_template.md,stable,A. Verboon,2026-05-11,all_agents,Afwijkingenlog per Space voor maandelijkse anti-rot reviewroutine
 
