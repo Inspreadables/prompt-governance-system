@@ -57,4 +57,12 @@ instruction_sets:
     status: draft
     applies_to:
       - perplexity_spaces
+  - instruction_id: template.space_audit_checklist
+    path: 04_templates/space_audit_checklist.md
+    version: 0.1.0
+    status: draft
+    applies_to:
+      - perplexity_spaces
+      - claude_projects
+      - custom_gpts
 

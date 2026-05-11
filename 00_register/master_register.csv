@@ -6,4 +6,5 @@ role.prompt_analyst_manager_orchestrator,0.1.0,02_roles/prompt_analyst_manager_o
 workflow.prompt_audit_protocol,0.1.0,03_workflows/prompt_audit_protocol.md,draft,A. Verboon,2026-05-11,Prompt audit Spaces,Auditproces voor prompts en Spaces
 workflow.anti_rot_protocol,0.1.0,03_workflows/anti_rot_protocol.md,draft,A. Verboon,2026-05-11,all_agents,Voorkomt instructiedrift
 adapter.perplexity_space,0.1.0,05_agent_adapters/perplexity_space_adapter.md,draft,A. Verboon,2026-05-11,Perplexity Spaces,Runtime-adapter
+template.space_audit_checklist,0.1.0,04_templates/space_audit_checklist.md,draft,A. Verboon,2026-05-11,Prompt audit Spaces,Checklist met scorevelden en ELI5-versie
 
