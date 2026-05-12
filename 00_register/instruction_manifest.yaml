@@ -83,14 +83,14 @@ instruction_sets:
       - perplexity_spaces
   - instruction_id: adapter.claude_project
     path: 05_agent_adapters/claude_project_adapter.md
-    version: 0.1.0
-    status: draft
+    version: 1.0.0
+    status: stable
     applies_to:
       - claude_projects
   - instruction_id: adapter.custom_gpt
     path: 05_agent_adapters/custom_gpt_adapter.md
-    version: 0.1.0
-    status: draft
+    version: 1.0.0
+    status: stable
     applies_to:
       - custom_gpts
   - instruction_id: adapter.github_copilot

@@ -41,8 +41,8 @@ De repo bevat adapters voor verschillende agentomgevingen in `05_agent_adapters/
 | Adapter                                                          | Instructie-ID              | Status | Doelomgeving                       |
 | ---------------------------------------------------------------- | -------------------------- | ------ | ---------------------------------- |
 | [Perplexity Space](05_agent_adapters/perplexity_space_adapter.md) | `adapter.perplexity_space` | stable | Perplexity Spaces                  |
-| [Claude Project](05_agent_adapters/claude_project_adapter.md)     | `adapter.claude_project`   | draft  | Anthropic Claude Projects          |
-| [Custom GPT](05_agent_adapters/custom_gpt_adapter.md)             | `adapter.custom_gpt`       | draft  | OpenAI Custom GPTs                 |
+| [Claude Project](05_agent_adapters/claude_project_adapter.md)     | `adapter.claude_project`   | stable | Anthropic Claude Projects          |
+| [Custom GPT](05_agent_adapters/custom_gpt_adapter.md)             | `adapter.custom_gpt`       | stable | OpenAI Custom GPTs                 |
 | [GitHub Copilot](05_agent_adapters/github_copilot_adapter.md)     | `adapter.github_copilot`   | stable | GitHub Copilot in repositories     |
 | [Cursor Rules](05_agent_adapters/cursor_rules_adapter.md)         | `adapter.cursor_rules`     | stable | Cursor in repositories             |
 

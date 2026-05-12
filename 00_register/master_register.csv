@@ -10,8 +10,8 @@ workflow.prompt_audit_protocol,1.0.0,03_workflows/prompt_audit_protocol.md,stabl
 workflow.anti_rot_protocol,1.0.0,03_workflows/anti_rot_protocol.md,stable,A. Verboon,2026-05-11,all_agents,Voorkomt instructiedrift
 workflow.anti_rot_review_routine,1.0.0,03_workflows/anti_rot_review_routine.md,stable,A. Verboon,2026-05-11,all_agents,Maandelijkse reviewroutine onder 30 minuten per Space met beslisregel
 adapter.perplexity_space,1.0.0,05_agent_adapters/perplexity_space_adapter.md,stable,A. Verboon,2026-05-11,Perplexity Spaces,Productieversie met compacte bootstrap en uitgebreide beheerderversie
-adapter.claude_project,0.1.0,05_agent_adapters/claude_project_adapter.md,draft,A. Verboon,2026-05-11,Claude Projects,Conceptadapter voor Claude Projects
-adapter.custom_gpt,0.1.0,05_agent_adapters/custom_gpt_adapter.md,draft,A. Verboon,2026-05-11,Custom GPTs,Conceptadapter voor OpenAI Custom GPTs
+adapter.claude_project,1.0.0,05_agent_adapters/claude_project_adapter.md,stable,A. Verboon,2026-05-12,Claude Projects,Productieversie met compacte bootstrap en uitgebreide beheerderversie
+adapter.custom_gpt,1.0.0,05_agent_adapters/custom_gpt_adapter.md,stable,A. Verboon,2026-05-12,Custom GPTs,Productieversie met compacte bootstrap en uitgebreide beheerderversie
 adapter.github_copilot,1.0.0,05_agent_adapters/github_copilot_adapter.md,stable,A. Verboon,2026-05-11,GitHub Copilot in repositories,Productieadapter met minimale en uitgebreide variant voor .github/copilot-instructions.md
 adapter.cursor_rules,1.0.0,05_agent_adapters/cursor_rules_adapter.md,stable,A. Verboon,2026-05-11,Cursor in repositories,Productieadapter met minimale en uitgebreide variant voor .cursorrules en .cursor/rules/
 template.space_audit_checklist,1.0.0,04_templates/space_audit_checklist.md,stable,A. Verboon,2026-05-11,Prompt audit Spaces,Checklist met scorevelden en ELI5-versie
