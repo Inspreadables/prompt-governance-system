@@ -57,6 +57,14 @@ Platform-specifieke regels (bestandsnamen, syntax, IDE-gedrag) horen in de adapt
 
 Gebruik de [anti-rot reviewroutine](03_workflows/anti_rot_review_routine.md) om actieve Spaces en agents maandelijks in minder dan 30 minuten te controleren op drift. Houd per Space een [afwijkingenlog](04_templates/deviation_log_template.md) bij en pas de beslisregel toe: **Space bijwerken**, **register bijwerken** of **afwijking expliciet accepteren**.
 
+## Voorbeelden
+
+De map [`examples/`](examples/) bevat uitgewerkte, generieke voorbeelden die laten zien hoe templates en workflows in de praktijk worden ingevuld. Voorbeelden zijn geen broninstructies en staan daarom bewust niet in `00_register/instruction_manifest.yaml` of `00_register/master_register.csv`.
+
+| Voorbeeld | Beschrijft | Gebruikt |
+| --------- | ---------- | -------- |
+| [Space-audit `Prompt analyst, manager en orchestrator`](examples/space_audit_prompt_analyst_orchestrator.md) | Volledig ingevulde scoreaudit met ELI5-samenvatting en afwijkingenlog dat alle drie beslissingen (`update_space`, `update_register`, `accept`) toont. | `template.space_audit_checklist`, `workflow.prompt_audit_protocol`, `workflow.anti_rot_review_routine`, `workflow.anti_rot_protocol`, `global.quality_standards`, `adapter.perplexity_space`, `template.deviation_log` |
+
 ## Validatie
 
 De repo bevat een automatische manifestvalidatie die controleert of `00_register/instruction_manifest.yaml`, `00_register/master_register.csv` en de bronbestanden bij elkaar passen. De controles zijn beschreven in de [manifest-validatiespecificatie](00_register/manifest_validation_specification.md).
