@@ -2,6 +2,7 @@
 
 ## 2026-05-13
 
+- `governance.manifest_validation_specification` gepromoveerd van `1.0.0` naar `1.1.0` (status blijft `stable`): nieuwe controle **C9** formaliseert het `applies_to`-vocabulaire. Toegestane waarden: `all_agents`, `perplexity_spaces`, `claude_projects`, `custom_gpts`, `github_copilot`, `cursor`. **C9.1** is een fout bij onbekende waarden; **C9.2** is een waarschuwing bij ontbrekend of leeg `applies_to`. `tools/validate_manifest.py` is uitgebreid met `ALLOWED_APPLIES_TO` en bijbehorende checks. Geen wijziging in bestaande manifest-waarden nodig. Manifest, masterregister en frontmatter bijgewerkt. Validatie 0 fouten / 0 waarschuwingen (#13).
 - Kosten- en tokencontrolebeleid toegevoegd als `governance.cost_token_control@0.1.0` (status `draft`) in `00_register/cost_token_control.md`: definieert **lean mode** als standaard, een verplichte **kostenwaarschuwing** voor multi-agent of setup-zware routes met goedkoper batch-alternatief, en de standaardvraag `Wil je lean plan, sandbox-test of volledige governanceverwerking?` voor multi-file werk. Beschrijft commando's (`lean`, `maak bestand`, `voer uit`, `verwerk`, `volledige governance`, `sandbox`) en de regel dat manifest, masterregister, changelog en eventuele `13_anti_rot_register.md`/`16_changelog.md` in lean mode nooit automatisch worden bijgewerkt; concept-updates worden verzameld tot `verwerk`. Manifest en masterregister bijgewerkt. Status blijft `draft` tot minstens één maand praktijkervaring is opgedaan; promotie naar `1.0.0` volgt `governance.versioning_release_policy`.
 
 ## 2026-05-12

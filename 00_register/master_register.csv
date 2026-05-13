@@ -1,7 +1,7 @@
 instruction_id,version,path,status,owner,last_reviewed,used_in,notes
 governance.instruction_id_convention,1.0.0,00_register/instruction_id_convention.md,stable,A. Verboon,2026-05-11,all_agents,Naamgevingsconventie voor alle instruction IDs
 governance.versioning_release_policy,1.0.0,00_register/versioning_and_release_policy.md,stable,A. Verboon,2026-05-11,all_agents,Versie- en releasebeleid voor instructies adapters en templates
-governance.manifest_validation_specification,1.0.0,00_register/manifest_validation_specification.md,stable,A. Verboon,2026-05-11,all_agents,Specificatie van geautomatiseerde controles voor manifest masterregister en frontmatter
+governance.manifest_validation_specification,1.1.0,00_register/manifest_validation_specification.md,stable,A. Verboon,2026-05-13,all_agents,Specificatie van geautomatiseerde controles voor manifest masterregister en frontmatter (v1.1 voegt C9 applies_to-vocabulaire toe)
 governance.cost_token_control,0.1.0,00_register/cost_token_control.md,draft,A. Verboon,2026-05-13,all_agents,Beleid voor lean mode kostenwaarschuwing en standaardvraag bij multi-file werk
 global.operating_principles,1.0.0,01_global/operating_principles.md,stable,A. Verboon,2026-05-11,all_agents,Generieke bronprincipes
 global.communication_style,1.0.0,01_global/communication_style.md,stable,A. Verboon,2026-05-11,all_agents,Nederlands en Engels mogelijk

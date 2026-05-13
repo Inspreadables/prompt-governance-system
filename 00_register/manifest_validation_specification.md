@@ -1,18 +1,18 @@
 ---
 instruction_id: governance.manifest_validation_specification
-version: 1.0.0
+version: 1.1.0
 status: stable
 owner: A. Verboon
-last_reviewed: 2026-05-11
+last_reviewed: 2026-05-13
 ---
 
 # Manifest Validation Specification
 
 **Instruction ID:** `governance.manifest_validation_specification`
-**Versie:** 1.0.0
+**Versie:** 1.1.0
 **Status:** stable
 **Eigenaar:** A. Verboon
-**Laatst herzien:** 2026-05-11
+**Laatst herzien:** 2026-05-13
 
 ## Doel
 
@@ -93,6 +93,30 @@ Niet elk bronbestand heeft YAML-frontmatter; templates zonder semantische status
 - **C8.1 waarschuwing** — Een bestand in `01_global/`, `02_roles/`, `03_workflows/`, `04_templates/`, `05_agent_adapters/` of `00_register/` met geldige frontmatter dat niet in het manifest is opgenomen wordt gemeld. Dit is een waarschuwing omdat er bestanden kunnen zijn die nog niet productierijp zijn.
 - **C8.2 informatie** — Bestanden zonder frontmatter (zoals oudere templates) worden genegeerd. Zij vallen buiten de scope van automatische validatie tot zij frontmatter krijgen.
 
+### C9. `applies_to`-vocabulaire is geldig
+
+Het veld `applies_to` koppelt een instructie aan één of meer doelomgevingen. Om drift te voorkomen geldt een vaste vocabulaire. Onbekende waarden duiden meestal op een typefout of een nieuwe omgeving die nog niet officieel is opgenomen.
+
+Toegestane waarden:
+
+| Waarde              | Betekenis                                                     |
+| ------------------- | ------------------------------------------------------------- |
+| `all_agents`        | Geldt voor elke agentomgeving zonder onderscheid.             |
+| `perplexity_spaces` | Perplexity Spaces.                                            |
+| `claude_projects`   | Anthropic Claude Projects.                                    |
+| `custom_gpts`       | OpenAI Custom GPTs.                                            |
+| `github_copilot`    | GitHub Copilot in repositories.                                |
+| `cursor`            | Cursor in repositories (`.cursorrules` of `.cursor/rules/`).   |
+
+- **C9.1 fout** — Elke waarde in `applies_to` (in manifest of masterregister, indien als kolom aanwezig) staat in de bovenstaande lijst.
+- **C9.2 waarschuwing** — `applies_to` is leeg of ontbreekt. Een instructie moet ten minste één doelomgeving hebben.
+
+Nieuwe omgevingen worden uitsluitend toegevoegd door:
+
+1. Een rij toe te voegen aan de tabel hierboven.
+2. De lijst `ALLOWED_APPLIES_TO` in `tools/validate_manifest.py` bij te werken.
+3. De wijziging vast te leggen in `99_changelog/changelog.md` en de versie van deze specificatie te verhogen (`MINOR` bij additieve uitbreiding).
+
 ## Foutmeldingen
 
 Elke melding heeft dezelfde opbouw zodat ze begrijpelijk blijft voor niet-programmeurs:
@@ -144,7 +168,7 @@ In CI: de workflow `.github/workflows/validate.yml` draait automatisch op elke p
 
 Wanneer een nieuwe controle wordt toegevoegd:
 
-1. Beschrijf de controle hier met een unieke code (`C9.1`, enzovoort).
+1. Beschrijf de controle hier met een unieke code (`C10.1`, enzovoort).
 2. Implementeer de controle in `tools/validate_manifest.py`.
 3. Documenteer de nieuwe controle in `99_changelog/changelog.md`.
 4. Verhoog `MINOR` van deze specificatie als de nieuwe controle nieuwe meldingen toevoegt zonder bestaande meldingen te wijzigen; verhoog `MAJOR` als bestaand gedrag breekt.

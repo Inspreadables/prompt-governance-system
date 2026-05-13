@@ -32,6 +32,14 @@ DATE_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 ALLOWED_PREFIXES = {"global", "role", "workflow", "template", "adapter", "governance"}
 ALLOWED_STATUSES = {"draft", "review", "stable", "deprecated"}
+ALLOWED_APPLIES_TO = {
+    "all_agents",
+    "perplexity_spaces",
+    "claude_projects",
+    "custom_gpts",
+    "github_copilot",
+    "cursor",
+}
 
 PREFIX_TO_DIR = {
     "global": "01_global",
@@ -283,6 +291,27 @@ def validate_manifest_entries(manifest: dict, report: Report) -> list[dict]:
                 f"De waarde '{version}' voor '{iid}' is geen geldige semver (MAJOR.MINOR.PATCH).",
                 "Gebruik drie getallen gescheiden door punten, bijvoorbeeld '1.0.0'.",
             )
+
+        # C9 applies_to vocabulary
+        applies_to = entry.get("applies_to")
+        if not applies_to or not isinstance(applies_to, list):
+            report.warning(
+                "C9.2",
+                "Een manifest-entry heeft geen of een leeg veld 'applies_to'.",
+                location,
+                f"Voor '{iid}' ontbreekt 'applies_to' of de waarde is geen niet-lege lijst.",
+                "Voeg ten minste één doelomgeving toe uit de toegestane lijst (zie governance.manifest_validation_specification, sectie C9).",
+            )
+        else:
+            for value in applies_to:
+                if str(value) not in ALLOWED_APPLIES_TO:
+                    report.error(
+                        "C9.1",
+                        "Een waarde in 'applies_to' is geen geldige doelomgeving.",
+                        location,
+                        f"De waarde '{value}' bij '{iid}' staat niet in de toegestane lijst {sorted(ALLOWED_APPLIES_TO)}.",
+                        "Kies een bestaande waarde of voeg de nieuwe omgeving eerst toe aan governance.manifest_validation_specification, sectie C9 en aan ALLOWED_APPLIES_TO in tools/validate_manifest.py.",
+                    )
 
         valid_entries.append(entry)
 
