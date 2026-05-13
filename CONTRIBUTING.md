@@ -80,7 +80,7 @@ Repo-procesdocumenten zoals `CONTRIBUTING.md`, `README.md` en `.github/PULL_REQU
 2. Beschrijft het een persona of functieprofiel? → prefix `role.`, pad `02_roles/`.
 3. Beschrijft het een meerstappenproces of audit? → prefix `workflow.`, pad `03_workflows/`.
 4. Is het een invulformat (checklist, brief, log)? → prefix `template.`, pad `04_templates/`.
-5. Vertaalt het bronbestanden naar een specifieke runtime (Perplexity, Claude, GPT, Copilot, Cursor)? → prefix `adapter.`, pad `05_agent_adapters/`.
+5. Vertaalt het bronbestanden naar een specifieke runtime (Perplexity, Claude, GPT, Copilot, Cursor)? → prefix `adapter.`, pad `05_agent_adapters/`. Gebruik het [adapter-template](04_templates/adapter_template.md) als startpunt.
 6. Geldt het voor alle agents en is het inhoudelijk generiek? → prefix `global.`, pad `01_global/`.
 
 Volg vervolgens de naamgevingsregels in [`governance.instruction_id_convention`](00_register/instruction_id_convention.md): ASCII kleine letters, underscores binnen een segment, singular, taalneutraal (Engels), uniek, maximaal drie segmenten na de prefix.

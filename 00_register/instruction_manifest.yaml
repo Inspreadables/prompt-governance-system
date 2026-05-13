@@ -125,6 +125,12 @@ instruction_sets:
     status: stable
     applies_to:
       - all_agents
+  - instruction_id: template.adapter
+    path: 04_templates/adapter_template.md
+    version: 1.0.0
+    status: stable
+    applies_to:
+      - all_agents
   - instruction_id: template.deviation_log
     path: 04_templates/deviation_log_template.md
     version: 1.0.0

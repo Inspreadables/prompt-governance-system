@@ -48,6 +48,8 @@ De repo bevat adapters voor verschillende agentomgevingen in `05_agent_adapters/
 
 Platform-specifieke regels (bestandsnamen, syntax, IDE-gedrag) horen in de adapterlaag, niet in de bronbestanden in `01_global/`, `02_roles/`, `03_workflows/` of `04_templates/`.
 
+Voor nieuwe adapters: gebruik het [adapter-template](04_templates/adapter_template.md) (`template.adapter@1.0.0`) als startpunt. Het template borgt frontmatter, lagenmodel, Variant A (compacte bootstrap), Variant B (uitgebreide versie), feedbackprocedure en metadata-eisen.
+
 ## Conventies
 
 - [Instructie-ID conventie](00_register/instruction_id_convention.md) — prefixes, naamgevingsregels, voorbeelden en relatie tot bestandspaden, versies, manifest en masterregister. Lees dit voordat je een nieuwe instructie toevoegt.

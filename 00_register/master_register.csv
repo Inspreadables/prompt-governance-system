@@ -17,5 +17,6 @@ adapter.github_copilot,1.0.0,05_agent_adapters/github_copilot_adapter.md,stable,
 adapter.cursor_rules,1.0.0,05_agent_adapters/cursor_rules_adapter.md,stable,A. Verboon,2026-05-11,Cursor in repositories,Productieadapter met minimale en uitgebreide variant voor .cursorrules en .cursor/rules/
 template.space_audit_checklist,1.0.0,04_templates/space_audit_checklist.md,stable,A. Verboon,2026-05-11,Prompt audit Spaces,Checklist met scorevelden en ELI5-versie
 template.release_notes,1.0.0,04_templates/release_notes_template.md,stable,A. Verboon,2026-05-11,all_agents,Template voor release notes bij grotere releases
+template.adapter,1.0.0,04_templates/adapter_template.md,stable,A. Verboon,2026-05-13,all_agents,Template voor nieuwe agent-adapters met frontmatter lagenmodel Variant A en Variant B
 template.deviation_log,1.0.0,04_templates/deviation_log_template.md,stable,A. Verboon,2026-05-11,all_agents,Afwijkingenlog per Space voor maandelijkse anti-rot reviewroutine
 
