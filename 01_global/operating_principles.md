@@ -20,4 +20,3 @@ Deze principes gelden voor elke agent, Space of workflow die dit register gebrui
 - **Vraag om verduidelijking bij echte ambiguïteit**: voorkom onnodig aannemen wanneer requirements het resultaat wezenlijk veranderen.
 - **Documenteer afwijkingen**: noteer wanneer een Space, agent of project afwijkt van het register.
 - **Verbeter iteratief**: elke audit of uitvoering kan aanleiding geven tot een register-update.
-

@@ -25,4 +25,3 @@ Een goede output is:
 - Is duidelijk welke workflow gevolgd moet worden?
 - Is er een manier om afwijkingen en verbeteringen terug te voeren?
 - Is de instructie begrijpelijk voor een nieuwe gebruiker of collega?
-

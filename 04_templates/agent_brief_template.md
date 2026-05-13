@@ -33,4 +33,3 @@ Beschrijf de taak in één alinea.
 ## Terugkoppeling naar register
 
 Noteer nieuwe patronen, conflicten of verbeteringen die in het instructieregister verwerkt moeten worden.
-

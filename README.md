@@ -82,7 +82,18 @@ Het script geeft fouten (blokkerend) en waarschuwingen (informatief) in begrijpe
 
 In CI draait dezelfde controle automatisch via de workflow [`.github/workflows/validate.yml`](.github/workflows/validate.yml) op elke push en pull request naar `main`.
 
+## Markdown-linting
+
+De repo gebruikt [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2) voor markdown-linting. De regelconfiguratie staat in [`.markdownlint.jsonc`](.markdownlint.jsonc); regels die structureel botsen met de conventies van deze repo (brede tabellen, generieke codeblokken zonder taalmarkering) zijn bewust uitgezet.
+
+Lokaal uitvoeren (vereist Node.js):
+
+```bash
+npx markdownlint-cli2 "**/*.md" "#node_modules"
+```
+
+In CI draait dezelfde controle via [`.github/workflows/markdown-lint.yml`](.github/workflows/markdown-lint.yml) op elke push en pull request naar `main`.
+
 ## Bijdragen en onderhoud
 
 Lees [`CONTRIBUTING.md`](CONTRIBUTING.md) voordat je een nieuwe instructie toevoegt, een bestaande instructie aanpast of een lokale Space-wijziging terugkoppelt naar dit register. Het document bevat de volledige workflow (bronbestand → manifest → masterregister → changelog → validatie), de minimale metadata-eisen, de reviewcriteria voor nieuwe instructies, de changelogregels en een maintainer-checklist. Bij het openen van een pull request wordt automatisch het sjabloon uit [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md) gebruikt.
-

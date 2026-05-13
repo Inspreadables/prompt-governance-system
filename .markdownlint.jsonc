@@ -1,0 +1,17 @@
+{
+  // Sensible defaults for the prompt-governance-system repo.
+  // The repo bevat Nederlandstalige documentatie, brede tabellen en
+  // bootstrap-codeblokken die letterlijk worden gekopieerd naar agents.
+  // We schakelen alleen regels uit die structureel met deze conventies botsen.
+  "default": true,
+  "MD013": false,
+  "MD024": { "siblings_only": true },
+  "MD033": false,
+  "MD041": false,
+  "MD026": { "punctuation": ".,;:!" },
+  "MD036": false,
+  "MD034": false,
+  "MD046": { "style": "fenced" },
+  "MD060": false,
+  "MD040": false
+}

@@ -23,4 +23,3 @@ Beschrijf context, doelgroep en toepassing.
 ## Wanneer is het goed genoeg?
 
 Beschrijf acceptatiecriteria.
-

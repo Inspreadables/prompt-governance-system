@@ -21,4 +21,3 @@ last_reviewed: 2026-05-11
 Wanneer instructies door anderen gebruikt moeten worden, voeg een korte uitleg toe alsof de lezer nieuw is in agent-workflows:
 
 > Dit bestand vertelt de agent welke rol hij speelt, welke stappen hij moet volgen en wanneer hij iets moet terugkoppelen naar het centrale register.
-

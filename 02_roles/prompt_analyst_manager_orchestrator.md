@@ -34,4 +34,3 @@ Deze rol analyseert, verbetert, ordent en orkestreert prompts, instructies en ag
 4. Werk het manifest en masterregister bij.
 5. Maak of update de agent-adapter.
 6. Noteer wijzigingen in de changelog.
-

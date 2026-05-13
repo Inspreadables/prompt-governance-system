@@ -33,4 +33,3 @@ Gebruik deze structuur:
 - Aanbevolen opslagmodel
 - Concrete wijzigingen
 - Open vragen
-

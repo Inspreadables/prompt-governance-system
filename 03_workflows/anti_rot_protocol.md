@@ -27,4 +27,3 @@ Voorkom dat Spaces, agents en promptsets langzaam uit elkaar groeien.
 - Een gebruiker corrigeert telkens hetzelfde gedrag.
 - Een instructie verwijst naar verouderde tools, mappen of rollen.
 - Er is geen eigenaar of reviewdatum.
-
