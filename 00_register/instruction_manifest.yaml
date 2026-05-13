@@ -31,6 +31,12 @@ instruction_sets:
     status: stable
     applies_to:
       - all_agents
+  - instruction_id: governance.cost_token_control
+    path: 00_register/cost_token_control.md
+    version: 0.1.0
+    status: draft
+    applies_to:
+      - all_agents
   - instruction_id: global.operating_principles
     path: 01_global/operating_principles.md
     version: 1.0.0
