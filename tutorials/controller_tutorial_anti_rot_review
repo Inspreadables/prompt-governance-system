@@ -1,0 +1,96 @@
+📘 Controller tutorial — Anti-rot review 
+Versie: 1.0
+Datum: 2026-06-15
+Doel: Leer hoe je maandelijks controleert of het systeem nog klopt (anti-rot)
+
+🧠 Wat is anti-rot?
+Net zoals een appel bruin wordt als je hem te lang laat liggen, kunnen instructies in AI-Spaces verouderen. Anti-rot betekent: je controleert regelmatig of alles nog klopt en je voorkomt dat het systeem rot.
+Jij doet dit één keer per maand (15-30 minuten).
+
+✅ Wat jij doet (stap voor stap)
+Stap 1 — Open het afwijkingenlog
+Gebruik een simpel logboek (bijv. een bestand anti_rot_log.md).
+markdown
+# Afwijkingenlog - [DATUM]
+
+## Space: [naam]
+- Bootstrap versie: [datum laatste update]
+- Werkt `akkoord, archiveer`? [ja/nee]
+- Afwijkingen: [wat wijkt af?]
+- Actie: [niets / Space updaten / PGS updaten / afwijking accepteren]
+Stap 2 — Check elke Space
+Open elke productie-Space (baakiedoc, baakieprint, baakiekwal, baakiehtml).
+Vraag 1: Staat de juiste bootstrap in de Space-instructies?
+Vergelijk met de officiële tekst uit de PGS-adapter.
+Vraag 2: Werkt akkoord, archiveer nog?
+Start een nieuwe chat, typ een willekeurige prompt, typ akkoord, archiveer.
+Vraag 3: Zijn er afwijkingen?
+Staat er extra tekst? Mist er een ID? Doet de AI iets anders dan verwacht?
+Stap 3 — Beslis wat je doet
+Situatie
+Jouw actie
+Alles klopt
+Noteer "review ok" in log
+Space is verouderd
+Update de Space (plak de huidige bootstrap)
+PGS is verouderd
+Update het register (pas workflow of adapter aan)
+Afwijking is bewust en gewenst
+Accepteer (noteer reden in log)
+
+Stap 4 — Rapporteer
+Schrijf een kort rapport:
+markdown
+# Anti-rot review - [DATUM]
+
+## Samenvatting
+- Spaces gecontroleerd: 4
+- Geen afwijkingen: 3
+- Geüpdatet (Space): 1
+- Geüpdatet (PGS): 0
+- Bewust afgeweken: 0
+
+## Volgende review
+Over 1 maand: [datum]
+Sla het rapport op in 99_changelog/anti_rot_review_[DATUM].md (in de PGS-repo).
+
+🖱️ Hoe voer je een update uit?
+Space updaten (als die afwijkt)
+Kopieer de officiële bootstrap uit de PGS-adapter
+Plak in de Space-instructies
+Sla op
+Noteer in log: "Space geüpdatet naar versie [DATUM]"
+PGS updaten (als het register beter moet)
+Open de PGS-repo
+Pas het betreffende bestand aan (workflow of adapter)
+Commit met bericht: anti-rot: overgenomen uit Space [naam]
+Noteer in log: "PGS geüpdatet naar versie [nieuw]"
+
+📅 Wanneer doe je dit?
+Frequentie
+Wanneer
+Tijd
+Eerste review
+Over 2 weken
+15 min
+Daarna
+Elke 1e maandag van de maand
+15-30 min
+
+
+🎯 Waarom dit goed is voor jou
+Voordeel
+Hoe werkt het?
+Geen verrassingen
+Je signaleert drift voordat het misgaat
+Weinig werk
+15-30 min per maand
+Alles traceerbaar
+Afwijkingenlog en rapporten blijven bewaard
+Je bent niet afhankelijk van één persoon
+Het systeem is de bron van waarheid
+
+
+📌 Onthoud
+Jij bent de tuinier van het systeem. Eén keer per maand wieden (afwijkingen verwijderen) en water geven (updaten). Dan blijft het gezond.
+
