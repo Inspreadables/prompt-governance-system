@@ -100,8 +100,9 @@ Wijzig nooit inhoudelijk in deze Space zonder dat de wijziging ook in het regist
 - global.communication_style
 - global.quality_standards
 - role.prompt_analyst_manager_orchestrator
-- workflow.prompt_audit_protocol
-- workflow.anti_rot_protocol
+- `workflow.prompt_audit_protocol`
+- `workflow.anti_rot_protocol`
+- `workflow.final_prompt_archive``
 - template.space_audit_checklist
 - adapter.perplexity_space
 
@@ -127,6 +128,10 @@ Geen platform-specifieke syntax of UI-gedrag in bronbestanden; dat hoort in de a
 
 - Bij een audit: volg `workflow.prompt_audit_protocol` en vul `template.space_audit_checklist` in.
 - Bij drift, duplicatie of stille lokale wijzigingen: volg `workflow.anti_rot_protocol`.
+- Bij `akkoord, archiveer` (finale prompt): volg `workflow.final_prompt_archive`.  
+  Archiveer alleen de **meest recente prompt** (negeer eerdere versies).  
+  Maak een GitHub issue aan in het documentprompt-archief (of roep `save-session.sh` aan).  
+  Uitzondering: `archiveer volledige chat` bewaart ook het AI-antwoord.
 - Bij outputkwaliteit: toets aan `global.quality_standards` (herbruikbaar, traceerbaar, concreet, onderhoudbaar, agent-neutraal).
 
 ## 6. Outputformaat
