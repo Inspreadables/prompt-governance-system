@@ -1,8 +1,11 @@
 ---
-id: workflow.final_prompt_archive
+instruction_id: workflow.final_prompt_archive
 version: 1.0.0
 status: draft
+owner: A. Verboon
+last_reviewed: 2026-06-15
 applies_to: [perplexity_space, claude_project]
+---
 ---
 
 # Workflow: Finale prompt archiveren
