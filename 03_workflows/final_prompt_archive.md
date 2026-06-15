@@ -21,17 +21,21 @@ Gebruiker typt in de chat:
 
 ## Uitvoering door de agent
 
-1. **Detecteer de meest recente prompt** uit de conversatiehistorie.
-2. **Negeer alle eerdere prompts** (die horen bij eerdere versies/correcties).
-3. **Verzamel metadata:**
-   - Documentnaam (uit context of vraag indien ontbrekend)
-   - Project/space naam
-   - Datum/tijd
-4. **Maak een GitHub issue aan** in de daarvoor bestemde repository (bijv. `Inspreadables/documentprompt-archief` — pas aan naar eigen inrichting).
-   - Titel: `[YYYY-MM-DD] [Project] Finale prompt: [documentnaam]`
-   - Body: bevat de **volledige prompt** en de metadata.
-5. **Optioneel:** Als er een `save-session.sh` script bestaat, roep het aan om ook een lokale kopie te maken.
-6. **Bevestig aan de gebruiker:** `✅ Gearchiveerd in issue #<nummer>`
+1. **Detecteer de meest recente prompt** uit de conversatiehistorie. Negeer alle eerdere prompts (die horen bij eerdere versies/correcties).
+
+2. **Verzamel metadata:** documentnaam (uit context of vraag indien ontbrekend), project/space naam, datum/tijd.
+
+3. **Toon de finale prompt** en leg uit:  
+   *"Deze prompt is de blauwdruk. Je kunt hiermee later het document opnieuw genereren."*
+
+4. **Geef een directe link naar GitHub issues** (gebruik de repository `Inspreadables/documentprompt-archief`):  
+   `https://github.com/Inspreadables/documentprompt-archief/issues/new?title=[YYYY-MM-DD]+[DOCUMENTNAAM]&body=##+Prompt%0A%0A[PLAK+HIER+DE+PROMPT]%0A%0A##+Metadata%0A-%20Space%3A%20[naam]%0A-%20Datum%3A%20[vandaag]`
+
+5. **Waarschuw de gebruiker nadrukkelijk:**  
+   *"⚠️ **Let op:** Klik de link, plak de prompt in het `## Prompt`-veld, **controleer of de tekst er staat**, en klik **pas dan** op `Create`. Verstuur geen leeg issue."*
+
+6. **Bevestig dat de chat verwijderd mag worden:**  
+   *"Na het versturen mag je deze chat verwijderen. De prompt is veilig opgeslagen in GitHub."*
 
 ## Uitzonderingen
 
