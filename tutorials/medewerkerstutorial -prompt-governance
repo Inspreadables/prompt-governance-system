@@ -1,0 +1,61 @@
+📘 medewerkerstutorial — Prompt governance (ELI5)
+Versie: 1.0
+Datum: 2026-06-15
+Doel: Leer hoe je een prompt beheert volgens het Prompt Governance System
+
+🧠 Wat is "een prompt governen"?
+Stel je voor: je schrijft een recept (de prompt). De AI kookt het gerecht (het antwoord).
+Governen betekent: je zorgt dat het recept niet verloren gaat, traceerbaar is en later opnieuw gebruikt kan worden.
+Jij doet maar één ding: aan het einde typ je akkoord, archiveer. De AI doet de rest.
+
+✅ Wat jij doet (stap voor stap)
+1. Werk zoals normaal
+Typ prompts, ontvang antwoorden, pas aan waar nodig. Alle tussenstappen zijn alleen voor jou.
+2. Na de laatste versie
+Typ in de chat:
+text
+akkoord, archiveer
+3. Wat de AI dan doet
+Toont de finale prompt (alleen de laatste versie)
+Geeft een GitHub link
+Waarschuwt: klik de link, plak de prompt, check of die er staat, klik Create
+4. Jij sluit af
+Klik de link
+Plak de prompt in het ## Prompt-veld
+Klik Create
+Kopieer het issue-nummer (bijv. #5)
+Plak het nummer terug in de chat
+5. Klaar
+De AI toont een compleet rapport. Jij verwijdert de chat.
+Jij bent klaar. De controller doet de rest.
+
+❌ Wat jij niet doet
+Niet doen
+Waarom
+Oude chats bewaren
+Alleen de finale prompt telt
+Het AI-antwoord kopiëren
+Alleen de prompt is de blauwdruk
+Een issue aanmaken zonder prompt
+Dat geeft een leeg archief
+De controller lastigvallen met tussenstappen
+Die ziet alleen het eindproduct
+
+
+🎯 Waarom dit goed is voor jou
+Voordeel
+Hoe werkt het?
+Je werk is veilig
+Prompt staat in GitHub (zelfs als Perplexity verdwijnt)
+Je kunt later verder bouwen
+De prompt is de blauwdruk — je begint niet opnieuw
+Geen gedoe met kopiëren/plakken
+Alleen akkoord, archiveer typen
+Geen rommel
+Chat mag weg
+
+
+📌 Onthoud
+Jij bent verantwoordelijk voor de finale prompt. De AI helpt, jij beslist. Typ akkoord, archiveer en de rest is automatisch.
+
+
