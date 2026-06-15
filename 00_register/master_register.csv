@@ -10,6 +10,7 @@ role.prompt_analyst_manager_orchestrator,1.0.0,02_roles/prompt_analyst_manager_o
 workflow.prompt_audit_protocol,1.0.0,03_workflows/prompt_audit_protocol.md,stable,A. Verboon,2026-05-11,Prompt audit Spaces,Auditproces voor prompts en Spaces
 workflow.anti_rot_protocol,1.0.0,03_workflows/anti_rot_protocol.md,stable,A. Verboon,2026-05-11,all_agents,Voorkomt instructiedrift
 workflow.anti_rot_review_routine,1.0.0,03_workflows/anti_rot_review_routine.md,stable,A. Verboon,2026-05-11,all_agents,Maandelijkse reviewroutine onder 30 minuten per Space met beslisregel
+workflow.final_prompt_archive,1.0.0,03_workflows/final_prompt_archive.md,draft,A. Verboon,2026-06-15,perplexity_spaces;claude_projects,Nieuwe workflow voor finale prompt archivering
 adapter.perplexity_space,1.0.0,05_agent_adapters/perplexity_space_adapter.md,stable,A. Verboon,2026-05-11,Perplexity Spaces,Productieversie met compacte bootstrap en uitgebreide beheerderversie
 adapter.claude_project,1.0.0,05_agent_adapters/claude_project_adapter.md,stable,A. Verboon,2026-05-12,Claude Projects,Productieversie met compacte bootstrap en uitgebreide beheerderversie
 adapter.custom_gpt,1.0.0,05_agent_adapters/custom_gpt_adapter.md,stable,A. Verboon,2026-05-12,Custom GPTs,Productieversie met compacte bootstrap en uitgebreide beheerderversie
@@ -19,4 +20,3 @@ template.space_audit_checklist,1.0.0,04_templates/space_audit_checklist.md,stabl
 template.release_notes,1.0.0,04_templates/release_notes_template.md,stable,A. Verboon,2026-05-11,all_agents,Template voor release notes bij grotere releases
 template.adapter,1.0.0,04_templates/adapter_template.md,stable,A. Verboon,2026-05-13,all_agents,Template voor nieuwe agent-adapters met frontmatter lagenmodel Variant A en Variant B
 template.deviation_log,1.0.0,04_templates/deviation_log_template.md,stable,A. Verboon,2026-05-11,all_agents,Afwijkingenlog per Space voor maandelijkse anti-rot reviewroutine
-
