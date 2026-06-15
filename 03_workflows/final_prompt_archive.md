@@ -30,11 +30,12 @@ Gebruiker typt in de chat:
 
 4. **Geef een directe link naar GitHub issues** (gebruik de repository `Inspreadables/documentprompt-archief`):  
    `https://github.com/Inspreadables/documentprompt-archief/issues/new?title=[YYYY-MM-DD]+[DOCUMENTNAAM]&body=##+Prompt%0A%0A[PLAK+HIER+DE+PROMPT]%0A%0A##+Metadata%0A-%20Space%3A%20[naam]%0A-%20Datum%3A%20[vandaag]`
-
-5. **Waarschuw de gebruiker nadrukkelijk:**  
+5. **Vraag de gebruiker het issue-nummer terug te plakken:**  
+   *"Na het aanmaken van het issue, kopieer het issue-nummer (bijv. #5) en plak het hier. Dan voeg ik het toe aan het printrapport."*
+6. **Waarschuw de gebruiker nadrukkelijk:**  
    *"⚠️ **Let op:** Klik de link, plak de prompt in het `## Prompt`-veld, **controleer of de tekst er staat**, en klik **pas dan** op `Create`. Verstuur geen leeg issue."*
 
-6. **Bevestig dat de chat verwijderd mag worden:**  
+7. **Bevestig dat de chat verwijderd mag worden:**  
    *"Na het versturen mag je deze chat verwijderen. De prompt is veilig opgeslagen in GitHub."*
 
 ## Uitzonderingen
