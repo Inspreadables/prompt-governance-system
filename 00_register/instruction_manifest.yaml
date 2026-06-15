@@ -81,6 +81,13 @@ instruction_sets:
     status: stable
     applies_to:
       - all_agents
+  - instruction_id: workflow.final_prompt_archive
+    path: 03_workflows/final_prompt_archive.md
+    version: 1.0.0
+    status: draft
+    applies_to:
+      - perplexity_spaces
+      - claude_projects
   - instruction_id: adapter.perplexity_space
     path: 05_agent_adapters/perplexity_space_adapter.md
     version: 1.0.0
@@ -137,4 +144,3 @@ instruction_sets:
     status: stable
     applies_to:
       - all_agents
-
